@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="Description" content="My site">
+    <meta name="author" content="Niklas Dorsch" >
+
+	<title>Niklas Dorsch</title>
+	<link rel="stylesheet" type="text/css" href="css/description.css">
+		
+</head>
+<body> 
+	<h1>Recs From Techs: Android App</h1>
+	<div class="container">
+    <div class="right">
+        <b>
+        This is a Android App that we made for a group project for Object and design Class.
+        The app allows Georgia Tech Students to rate movies and see how their peers rated movies.
+        It includes a login screen that requires correct credentials and a search function that implements the 
+        Rotten Tomatoes API. I made this app with 4 other students.
+        
+        	<ul> Skills Used
+  				<li>Android Studio/Java</li>
+  				<li>PhotoShop</li>
+  				<li>Git</li>
+				<li>JSON for Rotten Tomatoes API</li>
+				<li>Teamwork</li>
+
+		  	</ul>
+		  </b>
+    </div>
+    <div class="left">
+        <img style="width:100%"src="images/recs_app_1.png" alt="description" />
+			<img style="width:100%"src="images/recs_app_2.png" alt="description" />
+    </div>
+</div>
+<a href="https://www.linkedin.com/in/niklas-dorsch-051b37b9" id="image">
+	<img 	
+	src="images/linked in logo.png" alt="" border="0" height="50" width="50">
+	</a>
+</body>
+</html>

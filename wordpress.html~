@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="Description" content="My site">
+    <meta name="author" content="Niklas Dorsch" >
+
+	<title>Niklas Dorsch</title>
+	<link rel="stylesheet" type="text/css" href="css/description.css">
+		
+</head>
+<body> 
+	<h1>Wordpress: FSGH</h1>
+	<div class="container">
+    <div class="right">
+        <b>
+        This is a Wordpress site that I run for a media company. 
+        I run the server and customized the website to the specifications of the owner.
+        
+        	<ul> Skills Used
+  				<li>HTML/CSS</li>
+  				<li>WordPress</li>
+  				<li>Ubuntu Server</li>
+		  	</ul>
+		  </b>
+		  
+		 <p> <a href="http://funsquadgoeshard.com/">Link: http://funsquadgoeshard.com/</a></p>
+			<b>Disclaimer: I don't create the content, proceed at your own risk. </b> 
+		
+    </div>
+    <div class="left">
+        <img style="width:100%"src="images/wordpress.png" alt="description" />
+           <img style="width:100%"src="images/wordpress2.png" alt="description" />
+    </div>
+</div>
+<a href="https://www.linkedin.com/in/niklas-dorsch-051b37b9" id="image">
+	<img 	
+	src="images/linked in logo.png" alt="" border="0" height="50" width="50">
+	</a>
+	<a href="projects.html" class="button">Back to Projects</a>
+</body>
+</html>

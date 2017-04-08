@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Projects</title>
+<link rel="stylesheet" href='css/hoverbox.css' type="text/css" media="screen, projection" />
+</head>
+<body>
+<h1>Projects</h1>
+<h2>Click on pictures for description</h2>
+<ul class="hoverbox">
+<li>
+<a href="chess.html"><img src="images/chess1.JPG" alt="description" href="google.com" /><img src="images/chess1.JPG" alt="description" class="preview" href="google.com"/></a>
+</li>
+<li>
+<a href="frogger.html"><img src="images/frogger.png" alt="description" /><img src="images/frogger.png" alt="description" class="preview" /></a>
+</li>
+<li>
+<a href="wordpress.html"><img src="images/wordpress.png" alt="description" /><img src="images/wordpress.png" alt="description" class="preview" /></a>
+</li>
+<li>
+<a href="recs_app.html"><img src="images/recs_app_1.png" alt="description" /><img src="images/recs_app_1.png" alt="description" class="preview" /></a>
+</li>
+<li>
+<a href="recs_app.html"><img src="images/data_structures.png" alt="description" /><img src="images/data_structures.png" alt="description" class="preview" /></a>
+</li>
+<li>
+<a href="graphics.html"><img src="images/graphics1.png" alt="description" /><img src="images/graphics1.png" alt="description" class="preview" /></a>
+</li>
+</ul>
+<p id="footer"></p>
+
+<a href="https://www.linkedin.com/in/niklas-dorsch-051b37b9" id="image">
+	<img 	
+	src="images/linked in logo.png" alt="" border="0" height="50" width="50">
+</a></p>
+</body>
+</html>
