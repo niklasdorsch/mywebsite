@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="Description" content="My projects">
+    <meta name="author" content="Niklas Dorsch" >
+
+	<title>Niklas Dorsch / Projects</title>
+	<link rel="stylesheet" type="text/css" href="css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>	
+	<section class="hero">
+	    <div class="hero-body">
+	    	<div class="container">
+	      		<h1 class="title">
+					Projects
+		  		</h1>
+	      		<h2 class="subtitle">
+	      			Created using Bulma framework (Last updated Agust 2017)
+	      		</h2>
+	    	</div>
+	  	</div>
+	</section>
+	<section class="projects">
+		<div class="columns">
+			<div class="column is-10 is-offset-1">
+
+				<nav class="level">
+					<div class="level-left"></div>
+					<div class="level-right">
+						<h4 class="level-item" id="filter_title">Show projects with</h4>
+						<select class="level-item tag is-primary" id="filter_options" onchange="filterProj()">
+							<option value="All">All</option>
+						</select>
+						<button class="level-item" id="filter_clear" onclick="setFilterToAll()">Reset</button>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Music Visualizar Application 
+						</h2>
+						<h3 class="date_subheader">
+							(Novemeber 2016 -Present)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/music_vis.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						    Using the java-based Processing graphics software I have
+						    created an application that lets users create custom graphics
+						    visualization that correspond to the amplitudes and frequncies
+						    found in music.
+						    The app lets you create spirals, lerps and several other unquie shapes 
+						    that I have created that visualize changes in music.
+						</p>
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							<span class="tag is-primary is-medium" value="Java"></span>
+							<span class="tag is-primary is-medium" value="Processing"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Pegasus CRM: Rainmaker Module
+						</h2>
+						<h3 class="date_subheader">
+							(January 2017 - May 2017)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/pegasus.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						
+						</p>
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							<span class="tag is-primary is-medium" value="Frontend"></span>
+							<span class="tag is-primary is-medium" value="Agile"></span>
+							<span class="tag is-primary is-medium" value="Javascript"></span>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Recs From Techs 
+						</h2>
+						<h3 class="date_subheader">
+							(January 2016 -April 2016)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/recs_app_1.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						    This is a Android App that we made for a group project for Object and design Class.
+					        The app allows Georgia Tech Students to rate movies and see how their peers rated movies.
+					        It includes a login screen that requires correct credentials and a search function that implements the 
+					        Rotten Tomatoes API. I made this app with 4 other students.
+					    </p> 
+			        	<ul class="desc_list"> Skills Used
+			  				<li>Android Studio/Java</li>
+			  				<li>PhotoShop</li>
+			  				<li>Git</li>
+							<li>JSON for Rotten Tomatoes API</li>
+
+					  	</ul>	
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							
+							<span class="tag is-primary is-medium" value="Java"></span>
+							<span class="tag is-primary is-medium" value="Android"></span>
+							<span class="tag is-primary is-medium" value="API"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+							<span class="tag is-primary is-medium" value="Agile"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Frogger 
+						</h2>
+						<h3 class="date_subheader">
+							(July 2016)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/frogger.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						  This is a game I programmed in C for my Computer Organization and Programming Class (CS 2110).
+					        It is Frogger that runs on a Virtual GameBoy Advanced. The game uses sprites and.
+					        In this class we learned about the Digital Logic, the Von Neumann Model, Machine/Assembly Language and C.
+					     </p>
+			        	<ul class="desc_list"> Skills Used
+			  				<li>C</li>
+			  				<li>Assembly</li>
+			  				<li>Photoshop</li>
+						</ul> 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							<span class="tag is-primary is-medium" value="C"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							FUN SQAUD GOES HARD 
+						</h2>
+						<h3 class="date_subheader">
+							(August 2016 - May 2017)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/wordpress.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						  This is a Wordpress site that I used to run for a media company. I setup the server and customized the website to the specifications of the owner. I completely customized the start page using Jquery animation. I also drew all the icons that
+						  represeted menu items
+					     </p>
+			        	 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							<span class="tag is-primary is-medium" value="Frontend"></span>
+							<span class="tag is-primary is-medium" value="Wordpress"></span>
+							<span class="tag is-primary is-medium" value="Backend"></span>
+							<span class="tag is-primary is-medium" value="Grpahics"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Java Chess Board 
+						</h2>
+						<h3 class="date_subheader">
+							(November 2015)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/chess1.JPG" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+					  		This was the final homework assignment for the introduction to OO programming. 
+					  		The class taught Object Orientated principles, basic algorithm, and event driven programming
+					  		The logic and AI for the chess game was provided. I programmed the event driven animation with Java FX. 
+						</p>
+			        	<ul class="desc_list"> Skills Used
+			  				<li>C</li>
+			  				<li>Assembly</li>
+			  				<li>Gimp</li>
+						</ul> 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							
+							<span class="tag is-primary is-medium" value="Java"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
+
+	<script type="text/javascript">
+		var tags = new Set();
+		$('.sinlge_proj').each(function(i, obj) {
+			$(obj).find('.tags_list span').each(function(i, obj2) {
+				var val = $(obj2).attr("value");
+				$(obj2).text(val);
+				tags.add(val);
+
+			});
+		});
+		tags.forEach(addSetElementsToLog);
+		function addSetElementsToLog(value1, value2, set) {
+		    $("#filter_options").append('<option value="' +value1 +'">'+ value1 +'</option>');
+		}
+		function setFilterToAll() {
+			$("#filter_options").val("All");
+			filterProj();
+		}
+		function filterProj() {
+			var val = $(filter_options).val();
+			if(val == "All") {
+				$('.sinlge_proj').each(function(i, obj) {
+					$(obj).removeClass("hidden");
+				});
+			} else {
+				$('.sinlge_proj').each(function(i, obj) {
+					var hasTag = false;
+					$(obj).find('.tags_list span').each(function(i, obj2) {
+						var tag = $(obj2).attr("value");
+						if (val == tag) {
+							hasTag = true;
+						}
+					});
+					if (hasTag) {
+						$(obj).removeClass("hidden");
+					} else {
+						$(obj).addClass("hidden");
+					}
+				});
+			}
+		}
+	</script>
+</body>
