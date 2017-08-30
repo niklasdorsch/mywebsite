@@ -117,3 +117,8 @@ li.tag {
   list-style: circle;
   margin-left: 20px;
 }
+.fixed_b_left {
+  position: fixed;
+  left: 5px;
+  bottom: 0px;
+}

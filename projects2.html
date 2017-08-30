@@ -89,7 +89,11 @@
 					</div>
 					<div class="column is-4">
 						<p>
-						
+							During my internship at Pegasus CRM I was in the position of Frontend Developer.
+							I developed the frontend of a project called Rainmaker. This was tool to show potential
+							earnings for clients willing to switch to a particular service. I used java script libraries
+							like D3, ChartsJS, JQuery and CSS frameworks like bootstrap. I worked with a team of 4 other 
+							developers.
 						</p>
 					</div>
 					<div class="column is-2">
@@ -139,6 +143,75 @@
 							<span class="tag is-primary is-medium" value="API"></span>
 							<span class="tag is-primary is-medium" value="Graphics"></span>
 							<span class="tag is-primary is-medium" value="Agile"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Salary Comparison Tool
+						</h2>
+						<h3 class="date_subheader">
+							(July 2017)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/salaries.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						    This was a tool created for my information visualization class.
+						    It uses the Java D3 library and showcases the salaries of different Georgia employees.
+						    The data had to parsed and sorted. Everything was done with Javscript.
+						    <br>
+						    <a class="link" href="https://niklasdorsch.github.io/Georgia-Salaries-with-D3/"> Link </a>
+					    </p> 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							
+							<span class="tag is-primary is-medium" value="Javascript"></span>
+							<span class="tag is-primary is-medium" value="Frontend"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							React Menu Animation
+						</h2>
+						<h3 class="date_subheader">
+							(May 2017)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/react.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						    I created this menu widget to practice my ReactJS development skills.
+						    It was particually frustrating because React made creating the desired animation quite challenging
+						    <br>
+						    <a class="link" href="https://niklasdorsch.github.io/reactMenu/"> Link </a>
+					    </p> 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							
+							<span class="tag is-primary is-medium" value="Javascript"></span>
+							<span class="tag is-primary is-medium" value="Frontend"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
 						</ul>
 
 					</div>
@@ -205,9 +278,47 @@
 					<div class="column is-2">
 						<ul class="tags_list">
 							<span class="tag is-primary is-medium" value="Frontend"></span>
+							<span class="tag is-primary is-medium" value="Javascript"></span>
 							<span class="tag is-primary is-medium" value="Wordpress"></span>
 							<span class="tag is-primary is-medium" value="Backend"></span>
-							<span class="tag is-primary is-medium" value="Grpahics"></span>
+							<span class="tag is-primary is-medium" value="Graphics"></span>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column is-10 is-offset-1 bottom-line sinlge_proj">
+				<div class="columns">
+					<div class="column is-3">
+						<h2 class="title">
+							Artificial Intelligence Projects
+						</h2>
+						<h3 class="date_subheader">
+							(August 2016 - December 2016)
+						</h3>
+					</div>
+					<div class="column is-3">
+						  <img src="images/ai.png" alt="description" />
+					</div>
+					<div class="column is-4">
+						<p>
+						  In this semester at Georgia Tech I was in 3600 - Intro to AI. We learned the basics of artificial intelligence
+						  and completed the projects in the following 4 fields:
+					     </p>
+			        	 <ul class="desc_list"> 
+			  				<li>Search</li>
+			  				<li>Constraint Satisfaction Problems</li>
+			  				<li>Dynamic Bayesian Networks</li>
+			  				<li>Neural network</li>
+						</ul> 
+					</div>
+					<div class="column is-2">
+						<ul class="tags_list">
+							<span class="tag is-primary is-medium" value="AI"></span>
+							<span class="tag is-primary is-medium" value="Python"></span>
+							<span class="tag is-primary is-medium" value="Backend"></span>
 						</ul>
 
 					</div>
@@ -255,6 +366,9 @@
 
 
 	</section>
+	<div class="fixed_b_left">
+		<img src="images/linked in logo.png" alt="" border="0" height="50" width="50">
+	</div>
 
 	<script type="text/javascript">
 		var tags = new Set();
@@ -266,8 +380,12 @@
 
 			});
 		});
-		tags.forEach(addSetElementsToLog);
-		function addSetElementsToLog(value1, value2, set) {
+		var tagsArr = Array.from(tags);
+		tagsArr.sort();
+		for(var str in tagsArr) {
+			addSetElementsToLog(tagsArr[str]);
+		}
+		function addSetElementsToLog(value1) {
 		    $("#filter_options").append('<option value="' +value1 +'">'+ value1 +'</option>');
 		}
 		function setFilterToAll() {
